@@ -10,7 +10,7 @@ test('has title', async({page})=>{
 });
 
 
-test.only('get started link', async({page})=>{
+test('get started link', async({page})=>{
 
     await page.goto('https://playwright.dev/');
 
